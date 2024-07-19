@@ -65,3 +65,4 @@ rm "$ANACONDA_VERSION"
 echo "Anaconda installation completed. Use  anaconda-nagvigator  to start running. Incase of errors, please try restarting your terminal or run   source ~/.bashrc   to use Anaconda."
 echo "If that doesn't work please try running the script again."
 echo "report any errors as an issue to github.com/Quantaindew/anaconda-install/"
+
