@@ -42,10 +42,6 @@ apt-get install -y libgl1-mesa-glx libegl1-mesa libxrandr2 libxss1 libxcursor1 l
 ANACONDA_VERSION="Anaconda3-2024.06-1-Linux-x86_64.sh"
 DOWNLOAD_URL="https://repo.anaconda.com/archive/$ANACONDA_VERSION"
 
-if ! command_exists curl; then
-    apt-get install -y curl
-fi
-
 echo "Downloading Anaconda installer..."
 curl -O "$DOWNLOAD_URL"
 
