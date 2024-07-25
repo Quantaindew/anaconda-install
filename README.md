@@ -6,7 +6,7 @@
 -----
 To Install Run:
 > ```bash
-> sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Quantaindew/anaconda-install/main/script.sh)"
+> sudo apt install curl && sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Quantaindew/anaconda-install/main/script.sh)"
 > ```
 
 
